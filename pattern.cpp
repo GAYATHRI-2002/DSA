@@ -104,3 +104,49 @@ int main(){
 
 }
     */
+
+/*
+@
+@@
+@@@
+@@@@
+
+
+int main(){
+    int n;
+    cin>>n;
+
+    int row = 1;
+    while(row<=n){
+         int col = 1;
+         while (col<=row)
+         {
+            cout<<"@";
+            col++;
+         }
+         cout<<endl;
+         row++;
+    }
+    
+
+}
+    */
+
+int main(){
+    int num;
+    cin>>num;
+    int row = 1;
+    while (row<=num)
+    {
+        int col = 1;
+        while (col<=row)
+        {
+            cout<<row;
+            col++;
+        }
+        cout<<endl;
+        row++;
+        
+    }
+    
+}
